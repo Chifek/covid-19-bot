@@ -1,0 +1,27 @@
+{
+  "name": "covid-19-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for covid-information",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chifek/covid-19-bot.git"
+  },
+  "keywords": [
+    "nodejs",
+    "telegrambot"
+  ],
+  "author": "Ruslan Ismailov @ChiFek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chifek/covid-19-bot/issues"
+  },
+  "homepage": "https://github.com/Chifek/covid-19-bot#readme",
+  "dependencies": {
+    "covid19-api": "^1.2.1",
+    "telegraf": "^3.38.0"
+  }
+}
