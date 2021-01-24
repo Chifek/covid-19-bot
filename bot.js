@@ -14,7 +14,6 @@ bot.help(ctx => ctx.reply(COUNTRIES_LIST))
 bot.on('text', async (ctx) => {
   try {
     const userText = ctx.message.text
-    console.log(ctx.from)
     const covidData = await covidApi.getReportsByCountries(userText)
     const countryData = covidData[0][0]
     const deepCountryData = covidData[0][0].active_cases[0]
